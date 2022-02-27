@@ -1,0 +1,61 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2? family= Oswald:wght@500 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@600&display=swap');
+
+body {
+    background-color: #dddddd;
+    color: rgba(0,0,0,1);
+}
+
+div#interface {
+    width: 1200px;
+    text-align: justify;
+    background-color: #ffffff;
+    margin: -10px auto 10px auto;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,1);
+}
+
+div#interface p#p1 {
+    font-family: 'Martel', bold;
+    font-size: 18px;
+    letter-spacing: 0,5px;
+    color: rgb(0, 0, 0);
+    padding: 20px 0px 0px 0px;
+    margin: 0px 600px 0px 0px;
+}
+
+div#interface p#p2 {
+    font-family: 'Martel', bold;
+    font-size: 18px;
+    letter-spacing: 0,5px;
+    color: rgb(0, 0, 0);
+    padding: 20px 0px 0px 0px;
+    margin: 0px 518px 0px 100px;
+}
+
+header#cabecalho {
+    border-bottom: 1px #606060 solid;
+    height: 170px;
+    background: url(../images/criptomoedas/bitcoin/bitcoin-logo-pequeno.png) no-repeat 0px 116px;
+   
+}
+
+header#cabecalho h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30pt;
+    padding: 5px;
+    margin-bottom: 0px;
+    color: #3f3f3f;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+    background: url(../images/criptomoedas/bitcoin/bitcoin-pequeno-60x60.png) no-repeat 360px -3px;
+}
+
+header#cabecalho h3 {
+    font-family: 'Acme', sans-serif;
+    font-size: 16pt;
+    color: #504f4f;
+    padding: 0px 525px 0px 10px;
+    margin-top: 0px;
+}
